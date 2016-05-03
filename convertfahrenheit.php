@@ -8,7 +8,8 @@ function convert($c){
 
 <form action="convertfahrenheit.php" method="get">
     Celcius: <input type="number" name="deg"><br>
+</form>
     <?php
     convert($_GET["deg"]);
     ?>
-</form>
+
